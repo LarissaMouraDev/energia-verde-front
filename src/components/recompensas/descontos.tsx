@@ -19,7 +19,7 @@ export default function Descontos() {
                     <div>Conta de Luz</div>
                 </div>
                 <div className='flex flex-col gap-2 pl-10'>
-                    <div>500 pontos = R$ 30,00</div>
+                    <div>500 pontos = R$ 30,00 </div>
                     <div>1000 pontos = R$ 70,00</div>
                 </div>
                 <button className='bg-green-500 mt-4 rounded-full  font-bold text-2xl p-4 duration-300 hover:bg-green-600' onClick={() => handleResgate('luz')}>Resgatar Pontos</button>
