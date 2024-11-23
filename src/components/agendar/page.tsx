@@ -13,6 +13,8 @@ export default function Inputs() {
     const [data, setData] = React.useState<ColetaProps>({ data: '', horario: '', tipo: '', peso: '', foto: '' })
    
     const handleConfirmarAgenda = () => {
+
+        window.location.href = '/recompensas'
     }
    
     return (
