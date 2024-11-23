@@ -166,7 +166,7 @@ export default function Cadastro() {
                         <div>Resgatar Descontos</div>
                         <div>Contribuir com o Meio Ambiente</div>
                      </div>
-                     <Link href="/painel" className='bg-green-500 mt-4 rounded-full font-bold text-2xl p-2 px-24 duration-300 hover:bg-green-600'>Começar</Link>
+                     <Link href="/recompensas" className='bg-green-500 mt-4 rounded-full font-bold text-2xl p-2 px-24 duration-300 hover:bg-green-600'>Começar</Link>
                 </>
             )
         }
