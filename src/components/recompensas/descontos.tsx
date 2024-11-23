@@ -1,5 +1,7 @@
+'use client'
 import React from 'react'
 import saldo from './saldo'
+import Link from 'next/link'
 
 export default function Descontos() {
     const [descontoAgua, setDescontoAgua] = React.useState(10)
@@ -33,6 +35,7 @@ export default function Descontos() {
                 </div>
                 <button className='bg-green-500 mt-4 rounded-full  font-bold text-2xl p-4 duration-300 hover:bg-green-600' onClick={() => handleResgate('agua')}>Resgatar Pontos</button>
             </div>
+            <Link href="/coleta" className='bg-green-500 mt-4 rounded-full text-center  font-bold text-2xl p-4 duration-300 hover:bg-green-600'>Coleta</Link>
         </>
     )
 }

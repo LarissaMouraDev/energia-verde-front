@@ -5,7 +5,7 @@ import React from 'react'
 
 export default function Page() {
     const handleInicio = () => {
-        window.location.href = "/recompensar"
+        window.location.href = "/recompensas"
     }
 
 
