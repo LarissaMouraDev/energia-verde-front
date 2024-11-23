@@ -8,8 +8,6 @@ export default function Page() {
         window.history.back()
     }
 
-
-
   return (
     <>
         <Header text="Agendar Coleta" handleFunction={handleVoltar} />
