@@ -74,7 +74,7 @@ export default function Resgate({ slug } : { slug: string }) {
         )}
         {step === 2 && (
             <>
-                <div className='flex flex-col gap-2 w-full items-center'>
+                <div className='flex flex-col gap-6 w-full items-center'>
                     <div className='flex bg-green-500 rounded-full h-56 w-56 items-center justify-center text-white font-bold text-2xl'>Energia Verde</div>
                     <div className='text-center font-bold text-3xl text-green-800'>Sucesso!</div>
                     <div className='text-left font-bold text-2xl'>Seu desconto foi resgatado</div>
