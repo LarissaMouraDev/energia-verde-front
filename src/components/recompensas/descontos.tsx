@@ -12,7 +12,7 @@ export default function Descontos() {
 
     return (
         <>
-            <div className='text-left font-bold text-xl text-green-950'>Descontos Disponíveis </div>
+            <div className='text-left font-bold text-xl text-green-950'>Descontos Disponíveis</div>
             <div className='p-4 text-2xl rounded-xl w-full flex flex-col gapp-2 bg-green-300'>
                 <div className='flex gap-2'>
                     <div className='h-8 w-8 bg-yellow-300 rounded-full'></div>
