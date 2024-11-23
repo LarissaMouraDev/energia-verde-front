@@ -6,11 +6,11 @@ interface HeaderProps {
 }
 
 export default function Header({
-    text = 'Header',
+    text,
 }: HeaderProps) { 
   return (
     <>
-      <div className='h-20 w-full text-center items-center justify-center'>{text}</div>
+      <div className='bg-green-500 h-18 py-2 w-full flex text-center items-center justify-center text-white text-2xl font-bold'>{text}</div>
     </>
   )
 }
